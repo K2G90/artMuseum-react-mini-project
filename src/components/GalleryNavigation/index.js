@@ -2,6 +2,7 @@
 // Props
 
 import { NavLink } from "react-router-dom";
+import "./GalleryNavigation.css";
 
 // {hint} => props.hint 
 function GalleryNavigation({galleries}) {
@@ -17,7 +18,7 @@ function GalleryNavigation({galleries}) {
        
        { 
        galleries.map((gallery) => 
-        <NavLink to={`/galleries/${gallery.id}`}>{gallery.name}</NavLink>
+        <NavLink key={gallery.id} to={`/galleries/${gallery.id}`}>{gallery.name}</NavLink>
         )
        }
 
