@@ -5,8 +5,6 @@ import GalleryNavigation from './components/GalleryNavigation';
 function App() {
 
   return (
-    
-
     <GalleryNavigation galleries={harvardArt.records} />
     // <h1>Hello from App</h1>
   );
