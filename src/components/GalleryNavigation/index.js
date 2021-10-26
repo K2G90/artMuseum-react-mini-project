@@ -1,5 +1,11 @@
-function GalleryNavigation() {
+
+// Props
+// {hint} => props.hint 
+function GalleryNavigation({galleries}) {
+    // console.log(galleries)
+
     return (
+        
         <h1>Galleries</h1>
     );
 }
